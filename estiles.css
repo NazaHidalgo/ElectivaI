@@ -1,0 +1,32 @@
+nav>ul>li{
+    display:inline-block;
+    padding: 20px 0;
+    margin-bottom: 0;
+    margin-right: 5px;
+    border: none;
+    
+}
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    padding: 20px 20px;
+    background-color: salmon;
+}
+li>a:hover, .actual{
+    background-color: brown;
+}
+nav li { list-style: none;}
+
+nav a+ul {
+    position: absolute;
+    margin-top: 40px;
+    display: none;
+}
+nav>ul>li:hover>ul {
+    display: block;
+}
+nav a+ul>li {
+    margin-bottom: 40px;
+}
